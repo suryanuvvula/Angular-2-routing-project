@@ -1,0 +1,12 @@
+<p>Show Timings Component</p>
+<a [routerLink] = "['/showTimings',100,'First Movie show']">Display Params Data</a>
+<div class="panel panel-default" *ngFor = "let server of servers">
+<div class="panel-heading">{{server.id}} </div>
+    <div class="panel-body"> <p >{{server.name}}</p> </div>
+    </div>
+    <p>{{server}}</p>
+   
+
+    <div *ngFor = "let number of numbers">
+        <p>{{number}}</p>
+        </div>
